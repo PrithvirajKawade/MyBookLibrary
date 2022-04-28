@@ -15,9 +15,10 @@ Difficulties:
 
 What I Learned from this Project:
 
-1. How to prevent a form from submitting
-2. How to validate user input without the required property of form, this was done with the help of using checkValidity function
-3. How to add eventlistener to each dynamically created buttons
+1. Improved on working with Objects and its properties
+2. How to prevent a form from submitting
+3. How to validate user input without the required property of form, this was done with the help of using checkValidity function
+4. How to add eventlistener to each dynamically created buttons
 
 Features to implement in the future:
 
