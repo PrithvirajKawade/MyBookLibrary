@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Library</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Inter&family=Raleway&family=Roboto+Mono&family=Roboto+Slab&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>My Book Library</h1>
+            <form action="#" class="validform">
+                <div class="add-item">
+                    <input type="text" class="book" placeholder="Whats the title of the Book?" id="book" required />
+                    <input type="text" class="title" placeholder="Who is the Author?" required />
+                    <input type="number" class="pages" placeholder="No. of Pages in the book?" required />
+                    <input type="submit" value="Submit" id="submit" />
+                </div>
+            </form>
+        </div>
+        <div id="cards">
+            <div class="card-row" id="heading">
+                <div class="card">Title of the Book</div>
+                <div class="card">Author</div>
+                <div class="card">No. of Pages</div>
+                <div class="card">Status</div>
+            </div>
+        </div>
+    </div>
+    <script src="constructor.js"></script>
+</body>
+
+
+</html>
